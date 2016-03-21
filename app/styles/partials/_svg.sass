@@ -1,0 +1,24 @@
+svg#map 
+  fill: none
+  z-index: 0
+  overflow: hidden
+
+  .land 
+    fill: $land
+
+  .country 
+    fill: $blue-gray
+    stroke: $background
+    stroke-linejoin: round
+    stroke-linecap: round
+    cursor: pointer
+
+    &.close 
+      fill: $yellow
+    &.passing
+      fill: $green
+
+  // .hover 
+  //   fill: darken($green, 5%)
+  
+

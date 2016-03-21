@@ -1,0 +1,23 @@
+/*
+.thumbnail_url { display: none; }
+.image_url_1220x763 { display: none; }
+.image_url_800x500 { display: none; }
+.image_url_420x263 { display: none; }
+.image_url_610x381 { display: none; }
+.image_url_160x100 { display: none; }
+.image_url_278x360 { display: none; }
+.image_url_160x207 { display: none; }
+.image_url_1220nc { display: none; }
+.image_url_610nc { display: none; }
+.image_url_orig_c { display: none; }
+.file_name { display: none; }
+.original_file_name { display: none; }
+*/
+
+.defaultSkin span.mce_oafiles {
+display: block;
+width: 20px;
+height: 20px;
+background-position: -380px 0;
+}
+

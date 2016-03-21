@@ -1,0 +1,45 @@
+/*
+._meta_title{ display: none; }
+#story_form .description{ display: none; }
+.gen_description{ display: none; }
+.keywords{ display: none; }
+.short_url{ display: none; }
+.in_sitemap{ display: none; }
+._order{ display: none; }
+.parent{ display: none; }
+.in_menus{ display: none; }
+.login_required{ display: none; }
+.updated_at{ display: none; }
+.lead_image_thumbnail{ display: none; }
+.publication_url{ display: none; }
+.publication_file_ids{ display: none; }
+.archived_status{ display: none; }
+#id_publication_files{ display: none; }
+.publication_files{ display: none; }
+.publication_type{ display: none; }
+.publication_publisher{ display: none; }
+.publication_date{ display: none; }
+.publication_author{ display: none; }
+.press_officer{ display: none; }
+.featured{ display: none; }
+.lead_video_embed{ display: none; }
+.expiry_date{ display: none; }
+*/
+
+.publication_url{ display: none; }
+.lead_image_id{ display: none; }
+.publication_files{ display: none; }
+.publication_type{ display: none; }
+.publication_publisher{ display: none; }
+.lead_video_embed{ display: none; }
+.featured{ display: none; }
+.short_url{ display: none; }
+.publication_date{ display: none; }
+.lead_image_thumbnail{ display: none; }
+.updated_at{ display: none; }
+
+.in_menus{ display: none; }
+.login_required{ display: none; }
+.in_sitemap{ display: none; }
+
+.selector{width:710px;}

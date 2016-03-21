@@ -1,0 +1,12 @@
+.oa_latest_published { display: none; }
+.oa_latest_updated { display: none; }
+.fp_latest_published { display: none; }
+.fp_latest_updated { display: none; }
+.pop_latest_published { display: none; }
+.pop_latest_updated { display: none; }
+.task_name{ display: none; }
+/*#search_form .change-view-save-continue{ display: none; }
+#search_form .change-view-save-another{ display: none; }
+*/
+#search_form input[type=submit] { display: none; }
+#search_form .deletelink{ display: none; }

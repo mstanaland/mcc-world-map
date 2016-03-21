@@ -1,0 +1,10 @@
+countries.geojson: 
+	ogr2ogr -f GeoJSON -where "ADM0_A3 IN ('AUS', 'AFG', 'ARM', 'AZE', 'BGD', 'BEN', 'BOL', 'BRA', 'BFA', 'BDI', 'KHM', 'CAN', 'TCD', 'COL', 'CUB', 'COD', 'DOM', 'ECU', 'EGY', 'SLV', 'ETH', 'FJI', 'FRA', 'GEO', 'GHA', 'GTM', 'HTI', 'HND', 'IND', 'IDN', 'IRQ', 'JOR', 'KEN', 'LAO', 'LBN', 'LBR', 'MWI', 'MLI', 'MRT', 'MEX', 'MOZ', 'MMR', 'NPL', 'NLD', 'NIC', 'NER', 'NGA', 'PAK', 'PSX', 'PNG', 'PRY', 'PER', 'PHL', 'SEN', 'SLE', 'SLB', 'SOM', 'ZAF', 'SDS', 'ESP', 'LKA', 'SYR', 'TJK', 'TZA', 'THA', 'TLS', 'UGA', 'GBR', 'USA', 'VNM', 'YEM', 'ZMB', 'ZWE', 'SDN')" countries.geojson ne_110m_admin_0_countries.shp
+
+land.geojson:
+	ogr2ogr -f GeoJSON land.geojson ne_110m_land.shp
+
+earth.json: countries.geojson land.geojson
+	topojson -o earth.json --projection 'd3.geo.robinson()' --id-property adm0_a3 -- countries.geojson land.geojson
+	rm -f countries.geojson
+	rm -f land.geojson

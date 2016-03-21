@@ -1,0 +1,69 @@
+id,displayName,hidden,status
+AFG,Afghanistan,,close
+ARM,Armenia,,passing
+AZE,Azerbaijan,,passing
+BGD,Bangladesh,,passing
+BEN,Benin,,not passing
+BOL,Bolivia,,not passing
+BRA,Brazil,,not passing
+BFA,Burkina Faso,,not passing
+BDI,Burundi,,not passing
+KHM,Cambodia,,not passing
+TCD,Chad,,passing
+COL,Colombia,,not passing
+CUB,Cuba,,not passing
+COD,D.R. Congo,,not passing
+DOM,Dominican Republic,,not passing
+ECU,Ecuador,,not passing
+EGY,Egypt,,close
+SLV,El Salvador,,passing
+ETH,Ethiopia,,passing
+FJI,Fiji,,passing
+GEO,Georgia,,not passing
+GHA,Ghana,,not passing
+GTM,Guatemala,,not passing
+HTI,Haiti,,not passing
+HND,Honduras,,not passing
+IND,India,,passing
+IDN,Indonesia,,not passing
+IRQ,Iraq,,not passing
+JOR,Jordan,,not passing
+KEN,Kenya,,passing
+LAO,Laos,,not passing
+LBN,Lebanon,,not passing
+LBR,Liberia,,close
+MWI,Malawi,,passing
+MLI,Mali,,passing
+MRT,Mauritania,,passing
+MEX,Mexico,,not passing
+MOZ,Mozambique,,not passing
+MMR,Myanmar,,not passing
+NPL,Nepal,,not passing
+NIC,Nicaragua,,not passing
+NER,Niger,,not passing
+NGA,Nigeria,,passing
+PAK,Pakistan,,not passing
+PSX,Palestinian territories,,not passing
+PNG,Papua New Guinea,,not passing
+PRY,Paraguay,,not passing
+PER,Peru,,not passing
+PHL,Philippines,,close
+SEN,Senegal,,passing
+SLE,Sierra Leone,,passing
+SLB,Solomon Islands,,passing
+SOM,Somalia,,not passing
+ZAF,South Africa,Y,not passing
+SDS,South Sudan,,not passing
+ESP,Spain,,not passing
+LKA,Sri Lanka,,not passing
+SYR,Syria,,not passing
+TJK,Tajikistan,,not passing
+TZA,Tanzania,,not passing
+THA,Thailand,,not passing
+TLS,Timor-Leste,,not passing
+UGA,Uganda,,not passing
+VNM,Vietnam,,not passing
+YEM,Yemen,,close
+ZMB,Zambia,,passing
+ZWE,Zimbabwe,,not passing
+SDN,Sudan,,not passing

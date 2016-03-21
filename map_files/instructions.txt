@@ -1,0 +1,14 @@
+In terminal, run:
+
+	make earth.json
+
+
+
+
+
+The Makefile requires the following already be installed:
+• GDAL
+• Node.js
+• TopoJSON
+
+For basic instructions, see http://bost.ocks.org/mike/map/#installing-tools

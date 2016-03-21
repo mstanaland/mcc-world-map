@@ -1,0 +1,51 @@
+#tooltip 
+  position: absolute
+  padding: 15px 10px 10px 10px
+  font-size: 12px
+  line-height: 150%
+  background-color: #fff
+  background-color: rgba(255, 255, 255, 0.95)
+  box-shadow: 0 1px 12px rgba(0, 0, 0, 0.25)
+  display: none
+  pointer-events: none
+  z-index: 901
+
+  &:after 
+    width: 0
+    height: 0
+    content: " "
+    position: absolute
+    border: solid transparent
+    pointer-events: none
+    border-width: 6px
+    margin-top: -6px
+  
+
+  &.left:after 
+    right: 100%
+    top: 22px
+    border-right-color: #ffffff
+    border-right-color: rgba(255, 255, 255, 0.95)
+  
+
+  &.right
+    width: 100px
+
+    &:after 
+      left: 100%
+      top: 22px
+      border-left-color: #ffffff
+      border-left-color: rgba(255, 255, 255, 0.95)
+  
+
+  h5 
+    font-size: 16px
+    margin: 0 0 5px 0
+    line-height: 120%  
+
+  p, 
+  p:first-of-type,
+  p:last-of-type 
+    margin: 0
+    font-size: 12px
+    line-height: 140%

@@ -1,0 +1,21 @@
+.data{ display: none; }
+.data_definition{ display: none; }
+.order_by{ display: none; }
+.widget-data-input { width: 200px; }
+.data_backup{ display: none; }
+#text_to_add{ width: 95%; height: 210px; }
+body.text_to_add_body { padding: 10px;}
+body.text_to_add_body h1 { margin: 0;}
+th.htNoFrame{ background-image: -webkit-gradient(linear, left top, left bottom, from(#fff), to(#fff)) !important;}
+
+/*
+*/
+#widget_form .change-view-save-another{ display:none; }
+#widget_form .change-view-save-continue{ display:none; }
+#widget_form .default { display:none; }
+#widget_form .default2 { background: -webkit-gradient(linear, left top, left bottom, from(#309bbf), to(#2b8dad)); }
+
+#placement_form .change-view-save-another{ display:none; }
+#placement_form .change-view-save-continue{ display:none; }
+#placement_form .default { display:none; }
+#placement_form .default2 { background: -webkit-gradient(linear, left top, left bottom, from(#309bbf), to(#2b8dad)); }

@@ -1,0 +1,27 @@
+{
+  "name": "oxfam-knowledge-hubs",
+  "description": "",
+  "main": "index.html",
+  "authors": [
+    "Michael Stanaland <mstanaland@mac.com>"
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/mstanaland/oxfam-knowledge-hubs",
+  "moduleType": [],
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "./app/bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "d3": "^3.5.14",
+    "fastclick": "^1.0.6",
+    "Qurl": "qurl#^0.1.2",
+    "topojson": "^1.6.22",
+    "jquery": "^2.2.0",
+    "sharrre": "^1.3.5"
+  }
+}

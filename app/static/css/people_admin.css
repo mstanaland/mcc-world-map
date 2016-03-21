@@ -1,0 +1,13 @@
+.categoryTable {
+margin-top:-20px !important;
+}
+
+.categoryTable td{
+font-size: 100% !important;
+}
+
+/*
+.press_officers{display:none;}
+*/
+.photo_id{display:none;}
+.hi_res_photo_id{display:none;}
